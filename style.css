@@ -1,0 +1,96 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.player-score {
+  margin: 0 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: none;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(7),
+td:nth-child(8) {
+  border-left: none;
+}
+
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6) {
+  border-top: none;
+}
+
+td:nth-child(3),
+td:nth-child(6),
+td:nth-child(9) {
+  border-right: none;
+}
+
+td:nth-child(7),
+td:nth-child(8),
+td:nth-child(9) {
+  border-bottom: none;
+}
+
+.play {
+  margin-top: 20px;
+}
+
+#play {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+  
+}
+
+#play:hover {
+  background-color: #555;
+}
+.play{
+  margin: auto;
+  width: 9%;
+  margin-top: 20px;
+}
+#won{
+  text-align: center;
+  color: green;
+  font-size: x-large;
+  font-weight: bold;
+}
